@@ -45,6 +45,7 @@ export default function DashboardPage() {
       setExpenseData(data)
     }
 
+    loadExpense()
     loadIncome()
     setIsMounted(true)
   }, [])
